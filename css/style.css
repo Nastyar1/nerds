@@ -1,0 +1,288 @@
+body{margin: 0 auto;
+  padding: 0;
+  width: 1440px;
+  font-family: "Roboto", "Arial", sans-serif;
+font-size: 16px;
+line-height: 24px;
+display: flex;}
+
+.main-navigation{
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: medium;
+  color: #000000;
+}
+
+.page-header{
+  background-color: #eeeeee;
+}
+
+.page-main__banners_banner{
+  background-color: #eeeeee;
+}
+
+.main-navigation__list{
+  list-style-type: none;
+}
+
+.main-navigation__list a{
+  text-decoration: none;
+  color: #000000;
+  }
+
+  .banner-item__caption{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+  }
+ body{
+   display: block;
+ }
+
+  .banner-item__button{
+  font: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .advantages-item__caption{
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+.main-studio_caption{
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: medium;
+}
+
+.main-studio_caption2{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-studio-table_caption{
+  text-transform: uppercase;
+}
+
+.main-studio-table1{
+  font-size: 45px;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.main-contacts_contacts p{
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.main-contacts_contacts_button{
+  font: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.advantages-item__button1{
+  text-transform: uppercase;
+}
+
+.advantages-item__button{
+  font: inherit;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer-social_caption{
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.list-orders{
+  list-style: none;
+}
+
+.footer-social-icon{
+  list-style: none;
+}
+
+.main-navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1160px;
+  padding-top: 48px;
+  margin-left: 140px;
+}
+
+.main-navigation__list{
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  padding: 0;
+}
+
+.main-navigation__basket svg{
+  margin-right: 20px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-main__banners_banner{
+  min-height: 432px;
+}
+
+.banner-item-text{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin-left: 140px;
+  margin-top: 72px;
+  /*height: 266px;*/
+  align-items: stretch;
+}
+
+.banner-item1{
+  display: flex;
+}
+
+.banner-item__button{
+  display: block;
+  width: 240px;
+  height: 48px;
+  border: 0;
+  background-color: #fb565a;
+  color: #ffffff;
+}
+
+.banner-item__caption{
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.banner-item__paragraph{
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.main-advantages{
+  height: 508px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.main-advantages_items{
+  display: flex;
+
+  margin-left: 140px;
+}
+
+.advantages-item{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 100px;
+  margin-top: 83px;
+}
+
+.advantages-item__button1{
+  display: block;
+  width: 160px;
+  height: 51px;
+  border: 0;
+  background-color: #fb565a;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.advantages-item__button2{
+  text-transform: uppercase;
+  display: block;
+  width: 160px;
+  height: 51px;
+  border: 0;
+  background-color: #00ca74;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.advantages-item__button3{
+  text-transform: uppercase;
+  display: block;
+  width: 160px;
+  height: 51px;
+  border: 0;
+  background-color: #efc84a;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.main-studio{
+  display: flex;
+  min-height: 526px;
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.main-studio-information{
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+  margin-right: 141px;
+  margin-left: 140px;
+  margin-top: 81px;
+}
+
+.main-studio-table{
+  display: flex;
+  flex-direction: column;
+  width: 359px;
+  margin-top: 41px;
+}
+
+.main-studio_caption{
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.main-studio_lead{
+  margin: 0;
+  margin-bottom: 49px;
+}
+
+.main-studio_caption2{
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.list-orders{
+  margin: 0;
+  padding: 0;
+}
+
+.order{
+  margin-bottom: 35px;
+}
+
+.dash{
+  margin-right: 11px;
+}
