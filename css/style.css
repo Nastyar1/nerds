@@ -66,6 +66,7 @@ display: flex;}
 }
 
 .main-studio-table_caption{
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -285,4 +286,19 @@ input[type="radio"].visually-hidden {
 
 .dash{
   margin-right: 11px;
+}
+
+.main-studio_table_logo{
+  margin-bottom: 41px;
+}
+
+.main-studio-table_caption{
+  margin: 0;
+  margin-bottom: 53px;
+}
+
+.main-studio-table_list{
+  display: flex;
+  justify-content: center;
+
 }
