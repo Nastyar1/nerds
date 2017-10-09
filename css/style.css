@@ -151,7 +151,7 @@ input[type="radio"].visually-hidden {
 }
 
 .page-main__banners_banner{
-  min-height: 432px;
+  height: 420px;
 }
 
 .banner-item-text{
@@ -240,8 +240,9 @@ input[type="radio"].visually-hidden {
 
 .main-studio{
   display: flex;
-  min-height: 526px;
-  border-bottom: 2px solid #f4f4f4;
+  min-height: 498px;
+  margin-bottom: 30px;
+
 }
 
 .main-studio-information{
@@ -267,12 +268,12 @@ input[type="radio"].visually-hidden {
 
 .main-studio_lead{
   margin: 0;
-  margin-bottom: 49px;
+  margin-bottom: 35px;
 }
 
 .main-studio_caption2{
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .list-orders{
@@ -281,7 +282,7 @@ input[type="radio"].visually-hidden {
 }
 
 .order{
-  margin-bottom: 35px;
+  margin-bottom: 28px;
 }
 
 .dash{
@@ -299,6 +300,53 @@ input[type="radio"].visually-hidden {
 
 .main-studio-table_list{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 
+
+  /*align-items: center;*/
+}
+
+.main-studio-table1{
+  display: flex;
+  margin-bottom: 29px;
+}
+
+.main-studio-table1 td{
+  margin-right: 24px;
+}
+
+.main-studio-table2 td{
+  margin-left: 24px;
+}
+
+.main-studio_logo{
+  display: flex;
+  width: 1000px;
+  height: 184px;
+  border-bottom: 2px solid #f4f4f4;
+  border-top:  2px solid #f4f4f4;
+  margin: 0;
+  margin-left: 171px;
+  margin-bottom: 80px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.main-contacts{
+  position: relative;
+}
+
+.main-contacts_contacts{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 319px;
+  height: 309px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 140px;
+  margin-top: 54px;
 }
