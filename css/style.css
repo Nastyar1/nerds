@@ -321,16 +321,19 @@ input[type="radio"].visually-hidden {
 
 .main-studio_logo{
   display: flex;
-  width: 1000px;
+  width: 1086px;
   height: 184px;
   border-bottom: 2px solid #f4f4f4;
   border-top:  2px solid #f4f4f4;
   margin: 0;
-  margin-left: 171px;
-  margin-bottom: 80px;
-  justify-content: space-around;
+  margin-left: 168px;
+  margin-bottom: 73px;
+  justify-content: space-between;
   align-items: center;
+}
 
+.main-studio_logo_link img{
+  opacity: 0.2;
 }
 
 .main-contacts{
@@ -340,7 +343,8 @@ input[type="radio"].visually-hidden {
 .main-contacts_contacts{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
   width: 319px;
   height: 309px;
   background-color: #ffffff;
@@ -349,4 +353,123 @@ input[type="radio"].visually-hidden {
   left: 0px;
   margin-left: 140px;
   margin-top: 54px;
+}
+
+.main-contacts_contacts_text{
+  margin-left: 49px;
+  width: 204px;
+}
+
+.main-contacts_contacts_button{
+  display: block;
+  margin-left: 40px;
+  width: 220px;
+  height: 52px;
+  background-color: #fb565a;
+  border-radius: 2px;
+  border: 0;
+  color: #ffffff;
+}
+
+.footer-social-icon{
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.social-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e1e1;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+.footer-social{
+  display: flex;
+  align-items: center;
+  height: 217px;
+}
+
+.footer-social_text{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social_caption{
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.footer-social_paragraph{
+  margin: 0;
+}
+
+.page-main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 230px;
+  background-color: #eeeeee;
+}
+
+.container_caption{
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.main-sorting-container span{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.list-item-price a{
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.list-item a{
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.main-sorting-list{
+  list-style: none;
+  display: flex;
+  width: 272px;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 48px;
+}
+
+.main-sorting-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 140px;
+}
+
+.value{
+  margin-right: 282px;
+}
+
+.sorting{
+  margin-right: 270px;
+}
+
+.switch a{
+  margin-right: 18px;
 }
